@@ -87,3 +87,19 @@ const thankYouForm = (event) => {
     fullFormContainer.style.fontSize = "1.4em";
     console.log(thankParagraph);
 };
+
+
+//test to see and changes styles if on IOS or Ipad. IOS only works on phone whereas iPad works on phone and Ipad. I will leave both there in case something becasue deprecated
+let IOS = /iPad|iPhone|iPod/i.test(navigator.userAgent) && !window.MSStream;
+const iPad = !!(
+    navigator.userAgent.match(/iPad|iPhone|iPod/i) ||
+    (navigator.platform === "MacIntel" &&
+        typeof navigator.standalone !== "undefined")
+);
+const firstPageBackgroundImage = document.getElementById("about_us_section");
+const myProjectsBackground = document.querySelector("#mission_statement_section");
+
+if (IOS || iPad) {
+    firstPageBackgroundImage.style.backgroundAttachment = "scroll";
+    myProjectsBackground.style.backgroundAttachment = "scroll";
+}
