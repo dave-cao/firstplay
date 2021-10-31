@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/baseStyle.css" />
+    <link rel="stylesheet" href="storyboards.css" />
+  </head>
+  <div id="background"></div>
+  <body>
+    <div>
+      <a href="/index.html">
+        <h1 class="name" onclick="clickMyName()">FIRST PLAY</h1>
+      </a>
+    </div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="navBar grid">
+      <ul class="nav_links_container grid">
+        <li class="aboutMeLink">
+          <a href="/about_me/aboutMe.html">About Us</a>
+        </li>
+        <li class="myStoryboardsLink">
+          <a href="/storyboards_page/storyboards.html">Structure</a>
+        </li>
+        <li class="myIllustrationsLink">
+          <a href="/illustrations_page/illustrations.html">What We Offer</a>
+        </li>
+        <li class="contactButton contactMeLink">
+          <a href="/contact_me_page/contactMe.html">Contact Us!</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="pageGrid">
+      <section id="summary">
+        <img src="/Assets/placeholder.png" alt="" />
+        <h2>Summary</h2>
+        <p>These are some of the structures at First play...</p>
+      </section>
+      <section id="mainStoryboard">
+        <h2>Picture of Stucture</h2>
+        <img id="unsettledStoryboard" src="/Assets/placeholder.png" alt="" />
+        <!-- <div class="flip">
+          <button onclick="unsettledPrevious()">Previous</button>
+          <button onclick="unsettledFunction()">Next</button>
+        </div> -->
+        <!-- <div class="flip">
+          <button onclick="unsettledWidePrevious()">Previous</button>
+          <button onclick="unsettledWideFunction()">Next</button>
+        </div> -->
+      </section>
+
+      <!-- <section id="characterDesign">
+        <h2>Unsettled - Character Design</h2>
+        <div class="pictures">
+          <img src="/Assets/Character exploration for Unsettled.jpg" alt="" />
+        </div>
+      </section> -->
+
+      <!--Second storyboard-->
+      <section id="summary_two">
+        <h2>Summary</h2>
+        <p>"This is what a typical month of First Play would look like"</p>
+      </section>
+      <section id="secondStoryboard">
+        <h2>Typical Month at First Play</h2>
+        <div class="pictures">
+          <img id="codeStoryboard" src="/Assets/placeholder.png" alt="" />
+        </div>
+        <!-- <div class="flip">
+          <button onclick="codePrevious()">Previous</button>
+          <button onclick="codeStoryboardFunction()">Next</button>
+        </div> -->
+      </section>
+
+      <!--Third storyboard-->
+      <section id="summary_three">
+        <h2>Summary</h2>
+        <p>"This is what a typical day at first play would look like..."</p>
+      </section>
+
+      <section id="thirdStoryboard">
+        <h2>Typical Day at First Play</h2>
+        <div class="pictures">
+          <img
+            id="felixStoryboard"
+            src="/Assets/placeholder.png"
+            alt="Main Storyboard"
+          />
+        </div>
+        <!-- <div class="flip">
+          <button onclick="felixPrevious()">Previous</button>
+          <button onclick="felixComedyFunction()">Next</button>
+        </div> -->
+      </section>
+    </div>
+
+    <script src="/main.js" async defer></script>
+    <script src="/storyboards_page/storyboards.js" async defer></script>
+  </body>
+</html>
