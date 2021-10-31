@@ -1,5 +1,12 @@
 html {
-    /*background-image: url(/Assets/testBackground.jpg);*/
+    /*background-image: url(/Assets/logo.png);*/
+    background-color: black;
+
+}
+
+/*Turns nav bar on hover WHITE only on front page*/
+li a:hover {
+    color: var(--fifth);
 }
 
 .name {
@@ -20,6 +27,13 @@ html {
     text-align: center;
     line-height: 4.5rem;
 }
+
+.logo {
+    width: min(100%, 930px);
+    height: auto;
+
+}
+
 
 section {
     width: 100;

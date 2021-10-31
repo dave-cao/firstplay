@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
@@ -8,59 +9,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/baseStyle.css" />
     <link rel="stylesheet" href="aboutMe.css" />
-  </head>
-  <div id="background"></div>
-  <body>
+</head>
+<div id="background"></div>
+
+<body>
     <div>
-      <a href="/index.html">
-        <h1 class="name" onclick="clickMyName()">FIRST PLAY</h1>
-      </a>
+        <a href="/index.html">
+            <img class="name" src="/Assets/small_logo.png" onclick="clickMyName()"></img>
+        </a>
     </div>
     <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
     </div>
     <nav class="navBar grid">
-      <ul class="nav_links_container grid">
-        <li class="aboutMeLink">
-          <a href="/about_us/aboutUs.html">About Us</a>
-        </li>
-        <li class="myStoryboardsLink">
-          <a href="/structure_page/structure.html">Structure</a>
-        </li>
-        <li class="myIllustrationsLink">
-          <a href="/offer_page/offer.html">What We Offer</a>
-        </li>
-        <li class="contactButton contactMeLink">
-          <a href="/contact_me_page/contactMe.html">Contact Us!</a>
-        </li>
-      </ul>
+        <ul class="nav_links_container grid">
+            <li class="aboutMeLink">
+                <a href="/about_us/aboutUs.html">About Us</a>
+            </li>
+            <li class="myStoryboardsLink">
+                <a href="/structure_page/structure.html">Structure</a>
+            </li>
+            <li class="myIllustrationsLink">
+                <a href="/offer_page/offer.html">What We Offer</a>
+            </li>
+            <li class="contactButton contactMeLink">
+                <a href="/contact_me_page/contactMe.html">Contact Us!</a>
+            </li>
+        </ul>
     </nav>
 
-    <section>
-      <h1>About Me</h1>
-      <div>
-        <!-- <img src="/Assets/Character exploration for Unsettled.jpg" alt="" /> -->
-        <p>
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-          This is Filler Text, This is Filler Text, This is Filler Text,
-          <br />
-        </p>
-      </div>
+    <section id="about_us_section">
+        <h1>About Us</h1>
+        <div>
+            <!-- <img src="/Assets/Character exploration for Unsettled.jpg" alt="" /> -->
+            <p>
+                First Play is a grassroots organisation started by students at the University of Alberta.
+            </p>
+            <p>
+                Our goal is to reduce the barriers to physical activity and wellness programs that many indigenous youth and their families experience all across our communities
+            </p>
+
+        </div>
+    </section>
+
+
+    <section id="team_meet_section">
+        <div class="team_meet">
+            <h2>Meet the Team!</h2>
+        </div>
+        <div id="imgContainer">
+            <div>
+                <img src="/Assets/posingMexico.jpg" alt="" />
+                <p>This is David Cao. His favourite colour is orange!</p>
+            </div>
+            <div>
+                <img src="/Assets/stefanProfile.jpeg" alt="" />
+                <p>This is Stefan Bozic. He loves to run!</p>
+            </div>
+            <div>
+                <img src="/Assets/miranProfile.jpeg" alt="" />
+                <p>This is Miran Qazizada! He likes to think about philosophy!</p>
+            </div>
+            <div>
+                <img src="/Assets/placeholder.png" alt="" />
+                <p>This is Charles de Gracia! He draws and plays guitar!</p>
+            </div>
+            <div>
+                <img src="/Assets/placeholder.png" alt="" />
+                <p>This is Ilmun Sadeed Khan! He builds computers!</p>
+            </div>
+        </div>
     </section>
 
     <script src="/main.js" async defer></script>
-  </body>
+</body>
+
 </html>

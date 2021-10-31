@@ -3,7 +3,10 @@
     --primary: black;
     /*accents*/
     --secondary: #eaebec;
-    /*background colour*/
+    /*background colour
+    #eaebec;
+     */
+
     --third: #a2a2a2;
     /*text colours and 20%*/
     --fourth: #9e9f9f;

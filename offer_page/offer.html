@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
@@ -8,54 +9,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/baseStyle.css" />
     <link rel="stylesheet" href="illustrations.css" />
-  </head>
-  <div id="background"></div>
+</head>
+<div id="background"></div>
 
-  <body>
+<body>
     <div>
-      <a href="/index.html">
-        <h1 class="name" onclick="clickMyName()">FIRST PLAY</h1>
-      </a>
+        <a href="/index.html">
+            <img class="name" src="/Assets/small_logo.png" onclick="clickMyName()"></img>
+        </a>
     </div>
     <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
     </div>
     <nav class="navBar grid">
-      <ul class="nav_links_container grid">
-        <li class="aboutMeLink">
-          <a href="/about_us/aboutUs.html">About Us</a>
-        </li>
-        <li class="myStoryboardsLink">
-          <a href="/structure_page/structure.html">Structure</a>
-        </li>
-        <li class="myIllustrationsLink">
-          <a href="/offer_page/offer.html">What We Offer</a>
-        </li>
-        <li class="contactButton contactMeLink">
-          <a href="/contact_me_page/contactMe.html">Contact Us!</a>
-        </li>
-      </ul>
+        <ul class="nav_links_container grid">
+            <li class="aboutMeLink">
+                <a href="/about_us/aboutUs.html">About Us</a>
+            </li>
+            <li class="myStoryboardsLink">
+                <a href="/structure_page/structure.html">Structure</a>
+            </li>
+            <li class="myIllustrationsLink">
+                <a href="/offer_page/offer.html">What We Offer</a>
+            </li>
+            <li class="contactButton contactMeLink">
+                <a href="/contact_me_page/contactMe.html">Contact Us!</a>
+            </li>
+        </ul>
     </nav>
 
-    <section>
-      <h1>Illustrations</h1>
-      <div id="imgContainer">
-        <img src="/Assets/placeholder.png" alt="" />
-        <img
-          src="/Assets/placeholder.png"
-          alt="Created in CGMA's perspective drawing class"
-        />
-        <img src="/Assets/placeholder.png" alt="" />
-        <img src="/Assets/placeholder.png" alt="" />
-        <img src="/Assets/placeholder.png" alt="" />
-        <img src="/Assets/placeholder.png" alt="" />
-        <img src="/Assets/placeholder.png" alt="" />
-      </div>
+    <section id="top_padding">
+        <h1>Partnerships</h1>
+        <div id="partnerships_page">
+            <img src="/Assets/placeholder.png" alt="" />
+            <div class="partner_content">
+                <h3>FreePlay</h3>
+                <p>FreePlay is also a non-profit organization which has youth play various sports such as soccer, basketball and hockey. We will utilize their foundation and reach out to indigenous communities and implement these activities that would connect the youth and other demographics to their cultures and traditions.</p>
+            </div>
+        </div>
     </section>
+
+    <section>
+        <h1>Outreach</h1>
+        <div id="outreach_page">
+            <img src="/Assets/placeholder.png" alt="" />
+            <div class="outreach_content">
+                <h3>Elementary Schools</h3>
+                <p>We've began to reach out to schools!</p>
+                <br>
+                <ul>
+                    <li>Inglewood Elementary</li>
+                    <li>Mee-yah-no Elementary</li>
+                    <li>Something else I forgot</li>
+                </ul>
+                <br>
+                <h3>Indigenous Societies</h3>
+                <p>We've began to reach out to Indigenous Societies!</p>
+                <br>
+                <ul>
+                    <li>Bent Arrow</li>
+                    <li>Blood Reserves...</li>
+                    <li>Something else here</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>Volunteer Opportunities</h1>
+        <div id="partnerships_page">
+            <img src="/Assets/placeholder.png" alt="" />
+            <div class="partner_content">
+                <h3>Positions</h3>
+                <p>You get to be a Coach and Stuff!!</p>
+            </div>
+        </div>
+    </section>
+
 
     <script src="/main.js" async defer></script>
     <script src="/illustrations_page/illustrations.js" async defer></script>
-  </body>
+</body>
+
 </html>
