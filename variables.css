@@ -1,13 +1,13 @@
 /*Variable*/
 :root {
-  --primary: black;
-  /*accents*/
-  --secondary: #eaebec;
-  /*background colour*/
-  --third: black;
-  /*text colours and 20%*/
-  --fourth: #9e9f9f;
-  /*darker accent*/
-  --fifth: whitesmoke;
-  /*darker background*/
+    --primary: black;
+    /*accents*/
+    --secondary: #eaebec;
+    /*background colour*/
+    --third: #a2a2a2;
+    /*text colours and 20%*/
+    --fourth: #9e9f9f;
+    /*darker accent*/
+    --fifth: whitesmoke;
+    /*darker background*/
 }
