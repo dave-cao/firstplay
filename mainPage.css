@@ -35,7 +35,8 @@ li a:hover {
 }
 
 
-section {
+section,
+section a {
     width: 100;
     height: 100vh;
     display: flex;
