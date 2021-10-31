@@ -14,7 +14,11 @@
     align-items: center;
     line-height: 2rem;
     padding-top: min(200px, 5%);
-    height: 60vh;
+    height: 100vh;
+    background-image: url(/Assets/testBackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 #about_us_section div {
@@ -22,6 +26,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--secondary);
+    opacity: 0.8;
+    margin: 20px;
+    padding: 20px;
+    width: min(700px, 90%);
+    border-radius: 30px;
 }
 
 #about_us_section p {
@@ -30,16 +40,45 @@
     text-indent: 2rem;
 }
 
+/*Mission Statemnent Section*/
+#mission_statement_section {
+    height: 100vh;
+    background-image: url(/Assets/firstNationBackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+
+#mission_statement_section #mission_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f48037;
+    margin: 20px;
+    padding: 20px;
+    width: min(800px, 90%);
+    text-align: center;
+    border: black solid 3px;
+
+}
+
+#mission_content h3 {
+    width: min(800px, 100%);
+    padding: 20px;
+    text-indent: 2rem;
+
+}
+
 /*Team Meet Section*/
 
 
-.team_meet {
-    background-color: var(--fifth);
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    padding: 20px 20px;
-}
 
 #imgContainer {
     display: flex;
@@ -67,10 +106,17 @@ img {
     flex-direction: column;
 }
 
+/*global*/
+.headers {
+    background-color: var(--fifth);
+    text-align: center;
+    padding: 20px 20px;
+    border-top: #f48037 solid 1.5px;
+    border-bottom: #f48037 solid 1.5px;
+}
+
 @media screen and (max-width: 899px) {
-    section {
-        padding-top: 110px;
-    }
+    section {}
 
     section div {
         flex-direction: column;
