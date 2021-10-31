@@ -209,7 +209,7 @@ section h1 {
 /* small tablet sizes */
 @media screen and (min-width: 600px) {
     .name {
-        width: 5rem;
+        width: 7rem;
     }
 
 }

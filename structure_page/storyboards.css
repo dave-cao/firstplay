@@ -1,6 +1,7 @@
 @import url("/variables.css");
 
 /*Nav Bar*/
+
 .myStoryboardsLink {
     padding: 10px 10px;
     border-bottom: var(--fourth) 3px solid;

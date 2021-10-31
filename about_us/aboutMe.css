@@ -1,5 +1,24 @@
 @import url("/variables.css");
 
+/*Used to make nav bar more visibile on about us page*/
+/*@media screen and (min-width: 1086px) {
+    .navBar {
+        position: absolute;
+        width: 100%;
+        color: var(--third);
+        display: flex;
+        z-index: 2;
+        background-color: var(--secondary);
+        opacity: ;
+    }
+}
+*/
+
+/*Turn colours on nav bar in about us page white*/
+li a {
+    color: white;
+}
+
 /*Nav Bar*/
 .aboutMeLink {
     padding: 10px 10px;
@@ -15,7 +34,7 @@
     line-height: 2rem;
     padding-top: min(200px, 5%);
     height: 100vh;
-    background-image: url(/Assets/testBackground.jpg);
+    background-image: url(/Assets/testlandscape.jpg);
     background-attachment: fixed;
     background-size: cover;
 
@@ -40,10 +59,11 @@
     text-indent: 2rem;
 }
 
+
 /*Mission Statemnent Section*/
 #mission_statement_section {
     height: 100vh;
-    background-image: url(/Assets/firstNationBackground.jpg);
+    background-image: url(/Assets/landscapeagain.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
