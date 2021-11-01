@@ -9,6 +9,10 @@ li a:hover {
     color: var(--fifth);
 }
 
+li a {
+    color: #eaebec;
+}
+
 
 .name {
     display: none;
