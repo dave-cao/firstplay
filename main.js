@@ -97,9 +97,10 @@ const iPad = !!(
         typeof navigator.standalone !== "undefined")
 );
 const firstPageBackgroundImage = document.getElementById("about_us_section");
-const myProjectsBackground = document.querySelector("#mission_statement_section");
+const myProjectsBackground = document.querySelector("#team_meet_section");
+
 
 if (IOS || iPad) {
     firstPageBackgroundImage.style.backgroundAttachment = "scroll";
-    myProjectsBackground.style.backgroundAttachment = "scroll";
+    myProjectsBackground.style.background = "#491629";
 }

@@ -19,6 +19,10 @@ li a {
     color: black;
 }
 
+li a:hover {
+    color: grey;
+}
+
 /*Nav Bar*/
 .aboutMeLink {
     padding: 10px 10px;
@@ -63,7 +67,7 @@ li a {
 /*Mission Statemnent Section*/
 #mission_statement_section {
     height: 100vh;
-    background-image: url(/Assets/landscapeagain.jpg);
+    background-color: #903425;
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
@@ -96,7 +100,19 @@ li a {
 
 }
 
+
 /*Team Meet Section*/
+#team_meet_section {
+    background-image: url(/Assets/landscapeagain.jpg);
+    background-attachment: fixed;
+
+
+}
+
+#team_meet_section h2 {
+    text-align: center;
+    padding: 20px;
+}
 
 
 
@@ -105,18 +121,23 @@ li a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2rem;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #imgContainer p {
     width: min(400px, 100%);
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 img {
     width: 400px;
     height: auto;
-    margin: 20px 0 20px 0
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
 }
 
 .profile_container {
@@ -130,9 +151,7 @@ img {
 .headers {
     background-color: var(--fifth);
     text-align: center;
-    padding: 20px 20px;
-    border-top: #f48037 solid 1.5px;
-    border-bottom: #f48037 solid 1.5px;
+    border-top: #f48037 solid 3px;
 }
 
 @media screen and (max-width: 899px) {
@@ -148,5 +167,6 @@ img {
 @media screen and (max-width: 570px) {
     img {
         width: 100%;
+        padding: 20px;
     }
 }
