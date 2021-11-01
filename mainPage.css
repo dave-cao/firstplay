@@ -6,11 +6,15 @@ html {
 
 /*Turns nav bar on hover WHITE only on front page*/
 li a:hover {
-    color: var(--fifth);
+    color: grey;
 }
 
 li a {
-    color: #eaebec;
+    color: black;
+}
+
+.hamburger .line {
+    background-color: grey;
 }
 
 
