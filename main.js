@@ -102,5 +102,5 @@ const myProjectsBackground = document.querySelector("#team_meet_section");
 
 if (IOS || iPad) {
     firstPageBackgroundImage.style.backgroundAttachment = "scroll";
-    myProjectsBackground.style.background = "#491629";
+    myProjectsBackground.style.background = "#f48037";
 }
